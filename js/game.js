@@ -47,7 +47,6 @@ const showQuestion = () => {
   answerList.forEach((button, index) => {
     button.innerText = answers[index];
   });
-  console.log(correctAnswer + 1);
 };
 
 const checkAnswer = (event, index) => {
