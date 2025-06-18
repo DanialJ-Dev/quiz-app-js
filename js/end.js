@@ -38,7 +38,7 @@ const saveHandler = () => {
     localStorage.setItem("leaderboard", JSON.stringify(leaderboard));
     localStorage.removeItem("score");
     showAlert("Successfully saved", "success");
-    window.location.assign("/");
+    window.location.assign("./index.html");
   }
 };
 
